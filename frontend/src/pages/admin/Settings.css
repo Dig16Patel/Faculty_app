@@ -1,0 +1,114 @@
+.settings-container {
+  padding: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.page-title {
+  color: #1976d2;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.settings-section {
+  padding: 1.5rem;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.save-button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+/* List Styles */
+.MuiList-root {
+  padding: 0;
+}
+
+.MuiListItem-root {
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.MuiListItem-root:last-child {
+  border-bottom: none;
+}
+
+.MuiListItemText-primary {
+  font-weight: 500;
+  color: #333;
+}
+
+.MuiListItemText-secondary {
+  color: #666;
+  font-size: 0.875rem;
+}
+
+/* Dialog Styles */
+.MuiDialog-paper {
+  min-width: 400px;
+}
+
+.MuiDialogTitle-root {
+  padding: 1.5rem 1.5rem 0.5rem;
+}
+
+.MuiDialogContent-root {
+  padding: 1.5rem;
+}
+
+.MuiDialogActions-root {
+  padding: 1rem 1.5rem;
+}
+
+/* Form Control Styles */
+.MuiFormControlLabel-root {
+  margin: 0;
+  padding: 0.5rem 0;
+}
+
+.MuiSwitch-root {
+  margin-right: 0.5rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  .settings-container {
+    padding: 1rem;
+  }
+
+  .settings-section {
+    padding: 1rem;
+  }
+
+  .section-header {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+
+  .MuiDialog-paper {
+    min-width: 90%;
+    margin: 1rem;
+  }
+} 

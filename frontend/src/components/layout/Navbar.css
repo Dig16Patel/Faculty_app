@@ -1,0 +1,31 @@
+.sidebar-scroll {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+.sidebar-scroll::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+.sidebar-scroll:hover {
+  scrollbar-width: thin; /* Firefox */
+}
+
+.sidebar-scroll:hover::-webkit-scrollbar {
+  display: block;
+  width: 6px;
+  height: 6px;
+}
+
+.sidebar-scroll:hover::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.sidebar-scroll:hover::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 3px;
+}
+
+.sidebar-scroll:hover::-webkit-scrollbar-thumb:hover {
+  background: #555;
+} 

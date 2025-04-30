@@ -1,0 +1,195 @@
+.events-container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.page-title {
+  color: #1976d2;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.events-header {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 2rem;
+}
+
+.events-table {
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Styles */
+.MuiTable-root {
+  min-width: 650px;
+}
+
+.MuiTableHead-root .MuiTableCell-root {
+  background-color: #f5f5f5;
+  font-weight: 600;
+  color: #333;
+}
+
+.MuiTableBody-root .MuiTableRow-root:hover {
+  background-color: #f5f5f5;
+}
+
+.MuiTableCell-root {
+  padding: 1rem;
+}
+
+/* Chip Styles */
+.MuiChip-root {
+  height: 24px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+/* Dialog Styles */
+.MuiDialog-paper {
+  min-width: 600px;
+}
+
+.MuiDialogTitle-root {
+  padding: 1.5rem 1.5rem 0.5rem;
+}
+
+.MuiDialogContent-root {
+  padding: 1.5rem;
+}
+
+.MuiDialogActions-root {
+  padding: 1rem 1.5rem;
+}
+
+/* Form Control Styles */
+.MuiFormControl-root {
+  margin-bottom: 1rem;
+}
+
+.MuiSelect-select {
+  padding: 0.75rem;
+}
+
+/* Date Input Styles */
+.MuiInputLabel-shrink {
+  background-color: #fff;
+  padding: 0 0.5rem;
+}
+
+/* Virtual Event Styles */
+.virtual-event {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #1976d2;
+}
+
+.virtual-event .MuiSvgIcon-root {
+  font-size: 1rem;
+}
+
+/* Loading State */
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  .events-container {
+    padding: 1rem;
+  }
+
+  .MuiDialog-paper {
+    min-width: 90%;
+    margin: 1rem;
+  }
+
+  .MuiTable-root {
+    min-width: 100%;
+  }
+
+  .MuiTableCell-root {
+    padding: 0.75rem;
+  }
+
+  .events-header {
+    margin-bottom: 1rem;
+  }
+}
+
+/* Event Type Colors */
+.type-conference {
+  color: #1976d2;
+}
+
+.type-workshop {
+  color: #2e7d32;
+}
+
+.type-seminar {
+  color: #ed6c02;
+}
+
+.type-training {
+  color: #0288d1;
+}
+
+/* Status Colors */
+.status-completed {
+  color: #2e7d32;
+}
+
+.status-upcoming {
+  color: #1976d2;
+}
+
+.status-pending {
+  color: #ed6c02;
+}
+
+/* Button Styles */
+.MuiButton-root {
+  text-transform: none;
+  font-weight: 500;
+}
+
+.MuiButton-contained {
+  box-shadow: none;
+}
+
+.MuiButton-contained:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Icon Button Styles */
+.MuiIconButton-root {
+  padding: 0.5rem;
+}
+
+.MuiIconButton-root:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+/* Form Grid Styles */
+.MuiGrid-container {
+  margin-top: 0;
+}
+
+.MuiGrid-item {
+  padding-top: 0;
+}
+
+/* Checkbox Styles */
+.MuiCheckbox-root {
+  color: #1976d2;
+}
+
+.MuiCheckbox-root:hover {
+  background-color: rgba(25, 118, 210, 0.04);
+} 

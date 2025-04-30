@@ -1,0 +1,262 @@
+.dashboard-container {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  padding: 2rem 0;
+  margin-left: 100px;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.dashboard-title {
+  color: #1976d2;
+  font-weight: 600;
+}
+
+.logout-button {
+  text-transform: none;
+}
+
+.dashboard-card {
+  transition: all 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.dashboard-stats {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.stat-item {
+  text-align: center;
+  padding: 1rem;
+}
+
+.stat-item h4 {
+  color: #1976d2;
+  margin-bottom: 0.5rem;
+}
+
+.page-title {
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.card-title {
+  color: #333;
+  font-weight: 600;
+}
+
+.metric-item {
+  margin-bottom: 16px;
+}
+
+.metric-value {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.metric-progress {
+  flex: 1;
+  height: 8px;
+  border-radius: 4px;
+  background-color: #e3f2fd;
+}
+
+.metric-progress .MuiLinearProgress-bar {
+  background-color: #1976d2;
+}
+
+.task-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.quick-action-button {
+  height: 48px;
+  text-transform: none;
+  font-weight: 500;
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  min-height: 400px;
+}
+
+/* List styles */
+.MuiList-root {
+  padding: 0;
+}
+
+.MuiListItem-root {
+  padding: 12px 16px;
+}
+
+.MuiListItemButton-root {
+  border-radius: 8px;
+  margin: 4px 0;
+}
+
+.MuiListItemButton-root:hover {
+  background-color: #f5f5f5;
+}
+
+.MuiListItemIcon-root {
+  min-width: 40px;
+}
+
+.MuiListItemText-primary {
+  font-weight: 500;
+}
+
+.MuiListItemText-secondary {
+  margin-top: 4px;
+}
+
+/* Chip styles */
+.MuiChip-root {
+  height: 20px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+/* Divider styles */
+.MuiDivider-root {
+  margin: 4px 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  .dashboard-container {
+    padding: 1rem 0;
+  }
+
+  .dashboard-header {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  .dashboard-card {
+    padding: 1rem;
+  }
+
+  .card-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .metric-value {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .quick-action-button {
+    height: 40px;
+  }
+}
+
+/* Animation Styles */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.dashboard-card {
+  animation: fadeIn 0.5s ease-out;
+}
+
+.dashboard-stats {
+  animation: fadeIn 0.5s ease-out 0.2s backwards;
+}
+
+/* Material-UI component overrides */
+.MuiCard-root {
+  border-radius: 12px;
+}
+
+.MuiCardContent-root {
+  padding: 20px;
+}
+
+.MuiButton-root {
+  text-transform: none;
+}
+
+.MuiIconButton-root {
+  padding: 8px;
+}
+
+.MuiIconButton-root:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+.MuiTypography-h6 {
+  font-weight: 600;
+}
+
+.MuiTypography-body2 {
+  color: #666;
+}
+
+.MuiTypography-caption {
+  color: #999;
+}
+
+.MuiAlert-root {
+  margin-bottom: 16px;
+}
+
+/* Grid styles */
+.MuiGrid-container {
+  margin-top: 0;
+}
+
+.MuiGrid-item {
+  padding-top: 0;
+} 

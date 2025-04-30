@@ -1,0 +1,299 @@
+.dashboard-container {
+  padding: 24px 0;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+/* Card Styles */
+.MuiCard-root {
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.MuiCard-root:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Table Styles */
+.MuiTableContainer-root {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.MuiTableHead-root .MuiTableCell-root {
+  background-color: #f8f9fa;
+  font-weight: 600;
+}
+
+.MuiTableBody-root .MuiTableRow-root:hover {
+  background-color: #f8f9fa;
+}
+
+/* Button Styles */
+.MuiButton-root {
+  text-transform: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+}
+
+.MuiButton-contained {
+  box-shadow: none;
+}
+
+.MuiButton-contained:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Avatar Styles */
+.MuiAvatar-root {
+  border: 2px solid white;
+}
+
+/* Progress Bar Styles */
+.MuiLinearProgress-root {
+  border-radius: 4px;
+  height: 6px;
+}
+
+/* Chip Styles */
+.MuiChip-root {
+  border-radius: 16px;
+  font-weight: 500;
+}
+
+/* Paper Styles */
+.MuiPaper-root {
+  border-radius: 12px;
+}
+
+/* Grid Spacing */
+.MuiGrid-container {
+  margin-top: 0;
+}
+
+/* Typography Styles */
+.MuiTypography-h4 {
+  font-weight: 600;
+}
+
+.MuiTypography-h6 {
+  font-weight: 600;
+}
+
+/* Icon Button Styles */
+.MuiIconButton-root {
+  padding: 8px;
+}
+
+/* Card Actions Styles */
+.MuiCardActions-root {
+  padding: 16px;
+  justify-content: flex-end;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 600px) {
+  .dashboard-container {
+    padding: 16px 0;
+  }
+  
+  .MuiCard-root {
+    margin-bottom: 16px;
+  }
+  
+  .MuiGrid-container {
+    margin-top: 16px;
+  }
+}
+
+/* Animation Styles */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.dashboard-container > * {
+  animation: fadeIn 0.5s ease-out;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.appraisal-management-container {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  padding: 2rem 0;
+}
+
+.appraisal-management-container .MuiCard-root {
+  border-radius: 12px;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.appraisal-management-container .MuiCard-root:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.appraisal-management-container .MuiChip-root {
+  margin-right: 8px;
+  border-radius: 16px;
+  height: 24px;
+}
+
+.appraisal-management-container .MuiButton-root {
+  text-transform: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+}
+
+.appraisal-management-container .MuiDialog-paper {
+  border-radius: 12px;
+}
+
+.appraisal-management-container .MuiTextField-root {
+  margin-top: 16px;
+}
+
+.appraisal-management-container .MuiTextField-root .MuiOutlinedInput-root {
+  border-radius: 8px;
+}
+
+.appraisal-management-container .MuiAlert-root {
+  border-radius: 8px;
+}
+
+.appraisal-management-container .MuiPaper-root {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.appraisal-management-container .MuiAvatar-root {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.appraisal-management-container .MuiStack-root {
+  margin-top: 8px;
+}
+
+.appraisal-management-container .MuiTypography-h6 {
+  font-weight: 600;
+  color: #1a237e;
+}
+
+.appraisal-management-container .MuiTypography-body2 {
+  color: #546e7a;
+}
+
+.appraisal-management-container .MuiChip-outlined {
+  border-color: #e0e0e0;
+  color: #546e7a;
+}
+
+.appraisal-management-container .MuiChip-outlined .MuiChip-icon {
+  color: #546e7a;
+}
+
+.appraisal-management-container .MuiButton-containedSuccess {
+  background-color: #2e7d32;
+}
+
+.appraisal-management-container .MuiButton-containedError {
+  background-color: #c62828;
+}
+
+.appraisal-management-container .MuiButton-containedSuccess:hover {
+  background-color: #1b5e20;
+}
+
+.appraisal-management-container .MuiButton-containedError:hover {
+  background-color: #b71c1c;
+}
+
+.appraisal-management-container .MuiDialogTitle-root {
+  background-color: #f5f5f5;
+  padding: 16px 24px;
+}
+
+.appraisal-management-container .MuiDialogActions-root {
+  padding: 16px 24px;
+  background-color: #f5f5f5;
+}
+
+.appraisal-management-container .MuiDialogContent-root {
+  padding: 24px;
+}
+
+.appraisal-management-container .MuiIconButton-root {
+  color: #546e7a;
+}
+
+.appraisal-management-container .MuiIconButton-root:hover {
+  background-color: #f5f5f5;
+}
+
+/* Animation for cards */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.appraisal-management-container .MuiGrid-item {
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .appraisal-management-container {
+    padding: 1rem 0;
+  }
+
+  .appraisal-management-container .MuiCard-root {
+    margin: 0 8px;
+  }
+
+  .appraisal-management-container .MuiButton-root {
+    padding: 6px 12px;
+    font-size: 0.875rem;
+  }
+
+  .appraisal-management-container .MuiTypography-h6 {
+    font-size: 1.1rem;
+  }
+
+  .appraisal-management-container .MuiChip-root {
+    margin: 4px;
+  }
+} 

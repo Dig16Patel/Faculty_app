@@ -1,0 +1,154 @@
+.teaching-container {
+  padding: 2rem 0;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.teaching-title {
+  margin-bottom: 2rem;
+  color: #1976d2;
+  font-weight: 600;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.section-title {
+  color: #1976d2;
+  font-weight: 600;
+}
+
+.teaching-table {
+  margin-top: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.MuiTableCell-head {
+  background-color: #f5f5f5;
+  font-weight: 600;
+  color: #1976d2;
+}
+
+.MuiTableRow-root:hover {
+  background-color: #f5f5f5;
+}
+
+/* Dialog styles */
+.MuiDialog-paper {
+  min-width: 600px;
+  max-width: 800px;
+}
+
+.MuiDialogTitle-root {
+  background-color: #1976d2;
+  color: white;
+}
+
+.MuiDialogContent-root {
+  padding: 2rem;
+}
+
+.MuiDialogActions-root {
+  padding: 1rem 2rem;
+  border-top: 1px solid #e0e0e0;
+}
+
+/* Form control styles */
+.MuiTextField-root,
+.MuiFormControl-root {
+  margin-bottom: 1rem;
+}
+
+/* Button styles */
+.MuiButton-contained {
+  padding: 0.75rem 2rem;
+  font-weight: 600;
+  text-transform: none;
+}
+
+.MuiButton-contained:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Icon button styles */
+.MuiIconButton-root {
+  padding: 0.5rem;
+}
+
+.MuiIconButton-root:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+/* Alert styles */
+.MuiAlert-root {
+  margin-bottom: 1rem;
+  border-radius: 4px;
+}
+
+/* Animation styles */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.teaching-table {
+  animation: fadeIn 0.5s ease-out;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  .teaching-container {
+    padding: 1rem 0;
+  }
+
+  .section-header {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+
+  .MuiDialog-paper {
+    min-width: 90%;
+    margin: 1rem;
+  }
+
+  .MuiTableCell-root {
+    padding: 0.5rem;
+  }
+}
+
+/* Table cell styles */
+.MuiTableCell-root {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+}
+
+/* Typography styles */
+.MuiTypography-h4 {
+  margin-bottom: 2rem;
+}
+
+.MuiTypography-h6 {
+  margin-bottom: 1rem;
+}
+
+/* Paper styles */
+.MuiPaper-root {
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+} 

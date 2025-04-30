@@ -1,0 +1,110 @@
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  padding: 24px;
+}
+
+.login-paper {
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.login-title {
+  color: #1a237e;
+  margin-bottom: 32px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.login-button {
+  margin-top: 24px;
+  padding: 12px;
+  font-size: 1.1rem;
+  text-transform: none;
+  background-color: #1976d2;
+  color: white;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.login-button:hover {
+  background-color: #1565c0;
+}
+
+.login-button:disabled {
+  background-color: #90caf9;
+}
+
+.login-footer {
+  margin-top: 24px;
+  text-align: center;
+}
+
+.login-footer a {
+  color: #1976d2;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.login-footer a:hover {
+  text-decoration: underline;
+}
+
+/* Form Control Styles */
+.MuiTextField-root {
+  margin-bottom: 16px;
+}
+
+.MuiInputLabel-root {
+  color: #666;
+}
+
+.MuiOutlinedInput-root {
+  background-color: #fff;
+}
+
+.MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #1976d2;
+}
+
+/* Alert Styles */
+.MuiAlert-root {
+  width: 100%;
+  margin-bottom: 24px;
+  border-radius: 4px;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  .login-paper {
+    padding: 32px 24px;
+  }
+
+  .login-title {
+    font-size: 1.8rem;
+    margin-bottom: 24px;
+  }
+}
+
+/* Animation Styles */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.login-paper {
+  animation: fadeIn 0.5s ease-out;
+} 

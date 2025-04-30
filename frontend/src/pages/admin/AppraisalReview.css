@@ -1,0 +1,173 @@
+.appraisal-review-container {
+  padding: 24px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-title {
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  min-height: 400px;
+}
+
+.appraisal-details {
+  margin-top: 16px;
+}
+
+.metric-item {
+  margin-bottom: 16px;
+}
+
+.metric-value {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.metric-progress {
+  flex: 1;
+  height: 8px;
+  border-radius: 4px;
+  background-color: #e3f2fd;
+}
+
+.metric-progress .MuiLinearProgress-bar {
+  background-color: #1976d2;
+}
+
+/* Table styles */
+.MuiTableContainer-root {
+  margin-top: 16px;
+}
+
+.MuiTableHead-root .MuiTableCell-root {
+  background-color: #f5f5f5;
+  font-weight: 600;
+  color: #333;
+}
+
+.MuiTableRow-root:hover {
+  background-color: #f8f9fa;
+}
+
+/* Dialog styles */
+.MuiDialog-paper {
+  min-width: 600px;
+}
+
+.MuiDialogTitle-root {
+  padding: 16px 24px;
+  border-bottom: 1px solid #eee;
+}
+
+.MuiDialogContent-root {
+  padding: 24px;
+}
+
+.MuiDialogActions-root {
+  padding: 16px 24px;
+  border-top: 1px solid #eee;
+}
+
+/* Form control styles */
+.MuiFormControl-root {
+  margin-bottom: 16px;
+}
+
+.MuiTextField-root {
+  margin-bottom: 16px;
+}
+
+.MuiInputLabel-root {
+  color: #666;
+}
+
+.MuiSelect-select {
+  padding: 12px;
+}
+
+/* Button styles */
+.MuiButton-root {
+  text-transform: none;
+  font-weight: 500;
+}
+
+.MuiButton-contained {
+  box-shadow: none;
+}
+
+.MuiButton-contained:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.MuiIconButton-root {
+  padding: 8px;
+}
+
+.MuiIconButton-root:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+/* Card styles */
+.MuiCard-root {
+  margin-bottom: 16px;
+}
+
+.MuiCardContent-root {
+  padding: 20px;
+}
+
+/* Chip styles */
+.MuiChip-root {
+  height: 24px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  .appraisal-review-container {
+    padding: 16px;
+  }
+
+  .MuiDialog-paper {
+    min-width: 100%;
+    margin: 16px;
+  }
+
+  .metric-value {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .MuiTableCell-root {
+    padding: 8px;
+  }
+}
+
+/* Animation styles */
+.MuiTableRow-root,
+.MuiCard-root {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} 
